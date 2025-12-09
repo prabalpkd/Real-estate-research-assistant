@@ -25,7 +25,7 @@ This tool leverages **document embeddings**, a **vector database**, and a **larg
 
 ## 🖥️ Streamlit Interface
 
-![App Screenshot](https://github.com/prabalpkd/financial-data-extractor/blob/main/financial_data.png)
+![App Screenshot](https://github.com/prabalpkd/Real-estate-research-assistant/blob/main/snap.png)
 
 ---
 
