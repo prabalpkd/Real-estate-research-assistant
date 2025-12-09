@@ -41,7 +41,7 @@ streamlit run main.py
 
    -->The tool splits the content into smaller chunks for better retrieval by the AI.
 
-3  **Ask Questions**
+3. **Ask Questions**
 
 Once URLs are processed, enter your question in the text box.
 
