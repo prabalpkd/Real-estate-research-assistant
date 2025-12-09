@@ -17,6 +17,19 @@ This tool leverages **document embeddings**, a **vector database**, and a **larg
 
 ---
 
+## 📸 Live Demo
+
+**Live App:** https://real-estate-research-assistant-ouhlc6tvdahrqgggvbbdr6.streamlit.app/
+
+---
+
+## 🖥️ Streamlit Interface
+
+![App Screenshot](https://github.com/prabalpkd/financial-data-extractor/blob/main/financial_data.png)
+
+---
+
+
 ## 🛠️ Installation
 
 1. **Clone the Repository**
@@ -25,6 +38,7 @@ This tool leverages **document embeddings**, a **vector database**, and a **larg
 git clone <repository-url>
 cd real-estate-research-assistant
 ```
+---
 
 ## 🖥️ How to Use
 
@@ -52,6 +66,8 @@ streamlit run main.py
          --> “Summarize the current property trends in Mumbai.”
       
       The AI will provide a concise answer and list the sources from which the information was extracted.
+
+---
 
 ## 🏗️ Architecture Overview
 
@@ -85,6 +101,8 @@ The tool is built in a modular way for easy maintenance and scalability:
 
    --> ChatGroq LLM generates answers from retrieved content.
 
+---
+
 ## ⚡ Requirements
 
 1. Python 3.10+
@@ -99,6 +117,8 @@ The tool is built in a modular way for easy maintenance and scalability:
 
 6. ChatGroq LLM
 
+---
+
 ## 📝 Notes
 
    --> Always provide at least one valid URL before asking a question.
@@ -107,4 +127,8 @@ The tool is built in a modular way for easy maintenance and scalability:
 
    --> The tool works best with articles that are in English.
 
+---
 
+## 🙅‍♂️ Author
+
+**Prabal Kumar Deka**
