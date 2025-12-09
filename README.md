@@ -33,8 +33,8 @@ cd real-estate-research-assistant
 ```bash
 streamlit run main.py
 ```
-
 2. **Add URLs**
+   
    -->Use the sidebar to enter one or more URLs of real estate news, blogs, or articles.
 
    -->Click Process URLs to scrape and store the articles in a vector database.
