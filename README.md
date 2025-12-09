@@ -43,15 +43,15 @@ streamlit run main.py
 
 3. **Ask Questions**
 
-Once URLs are processed, enter your question in the text box.
-
-Example questions:
-
-   --> “What was the 30-year fixed mortgage rate last month?”
-
-   --> “Summarize the current property trends in Mumbai.”
-
-The AI will provide a concise answer and list the sources from which the information was extracted.
+      Once URLs are processed, enter your question in the text box.
+      
+      Example questions:
+      
+         --> “What was the 30-year fixed mortgage rate last month?”
+      
+         --> “Summarize the current property trends in Mumbai.”
+      
+      The AI will provide a concise answer and list the sources from which the information was extracted.
 
 ## 🏗️ Architecture Overview
 
