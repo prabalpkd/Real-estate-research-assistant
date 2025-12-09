@@ -1,20 +1,10 @@
+# Environment variables
+.env
+.idea/
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Virtual environments
-env/
+# Virtual env
 venv/
-.venv/
-
-# IDE
-.idea/
-.vscode/
-
-# Secrets
-.env
-config.py
-*.key
-*.secret
+env/
