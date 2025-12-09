@@ -47,61 +47,64 @@ Once URLs are processed, enter your question in the text box.
 
 Example questions:
 
-“What was the 30-year fixed mortgage rate last month?”
+   --> “What was the 30-year fixed mortgage rate last month?”
 
-“Summarize the current property trends in Mumbai.”
+   --> “Summarize the current property trends in Mumbai.”
 
 The AI will provide a concise answer and list the sources from which the information was extracted.
 
 ## 🏗️ Architecture Overview
+
 The tool is built in a modular way for easy maintenance and scalability:
 
-Frontend (main.py)
+1. Frontend (main.py)
 
-Streamlit interface for input URLs and questions.
+   --> Streamlit interface for input URLs and questions.
 
-Displays processing status and AI answers.
+   --> Displays processing status and AI answers.
 
-Backend (rag.py)
+2. Backend (rag.py)
 
-Handles URL scraping and text extraction.
+   --> Handles URL scraping and text extraction.
 
-Splits text into smaller chunks for better embeddings.
+   --> Splits text into smaller chunks for better embeddings.
 
-Creates embeddings using HuggingFace models.
+   --> Creates embeddings using HuggingFace models.
 
-Stores embeddings in a Chroma vector database for fast retrieval.
+   --> Stores embeddings in a Chroma vector database for fast retrieval.
 
-Uses ChatGroq LLM to generate answers based on retrieved content.
+   --> Uses ChatGroq LLM to generate answers based on retrieved content.
 
-Vector Database
+3. Vector Database
 
-Stores chunks of documents as embeddings.
+   --> Stores chunks of documents as embeddings.
 
-Enables semantic search for relevant content.
+   --> Enables semantic search for relevant content.
 
-LLM
+4. LLM
 
-ChatGroq LLM generates answers from retrieved content.
+   --> ChatGroq LLM generates answers from retrieved content.
 
 ## ⚡ Requirements
 
-Python 3.10+
+1. Python 3.10+
 
-Streamlit
+2. Streamlit
 
-LangChain
+3. LangChain
 
-Chroma Vector Database
+4. Chroma Vector Database
 
-HuggingFace Embeddings (Alibaba-NLP/gte-base-en-v1.5)
+5. HuggingFace Embeddings (Alibaba-NLP/gte-base-en-v1.5)
 
-ChatGroq LLM
+6. ChatGroq LLM
 
 ## 📝 Notes
 
-Always provide at least one valid URL before asking a question.
+   --> Always provide at least one valid URL before asking a question.
 
-The first run may take a few minutes because it initializes the LLM and the vector database.
+   --> The first run may take a few minutes because it initializes the LLM and the vector database.
 
-The tool works best with articles that are in English.
+   --> The tool works best with articles that are in English.
+
+
