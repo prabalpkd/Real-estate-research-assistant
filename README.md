@@ -69,6 +69,31 @@ streamlit run main.py
 
 ---
 
+## 📌 Example
+
+Input URLs:
+
+      https://www.cnbc.com/2024/12/21/how-the-federal-reserves-rate-policy-affects-mortgages.html
+      
+      https://www.cnbc.com/2024/12/20/why-mortgage-rates-jumped-despite-fed-interest-rate-cut.html
+
+      https://www.cnbc.com/2025/08/14/cnbcs-inside-india-newsletter-as-indias-rich-venture-abroad-many-anchor-fortunes-in-real-estate.html
+
+Question:
+
+         "Tell me what was the 30 year fixed mortgage rate along with the date?"
+         
+         "Summarize the current property trends in Mumbai"
+         
+         "Can I buy some property in mumbai with 1 million?"
+Output:
+
+         Answer: The AI generates a clear and concise response.
+         
+         Sources: URLs or specific content chunks where the information was retrieved.
+
+---
+
 ## 🏗️ Architecture Overview
 
 The tool is built in a modular way for easy maintenance and scalability:
